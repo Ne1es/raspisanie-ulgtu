@@ -1,0 +1,1 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="ru.ne1es.timetable.tests"><uses-sdk android:minSdkVersion="26" android:targetSdkVersion="35"/><application android:label="Timetable layout tests"/><instrumentation android:name="ru.ne1es.timetable.Release60Test" android:targetPackage="ru.ne1es.timetable" android:functionalTest="true"/></manifest>

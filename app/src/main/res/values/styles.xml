@@ -1,0 +1,18 @@
+<resources>
+ <style name="AppTheme" parent="android:style/Theme.Material.Light.NoActionBar">
+  <item name="android:fontFamily">@font/golos_text</item>
+  <item name="android:colorAccent">#6C36AD</item>
+  <item name="android:windowLightStatusBar">true</item>
+  <item name="android:statusBarColor">#F7F3FC</item>
+  <item name="android:navigationBarColor">#F7F3FC</item>
+  <item name="android:windowLightNavigationBar">true</item>
+  <item name="android:windowActionModeOverlay">true</item>
+  <item name="android:windowBackground">#F7F3FC</item>
+ </style>
+ <style name="AppThemeDark" parent="android:style/Theme.Material.NoActionBar">
+  <item name="android:fontFamily">@font/golos_text</item><item name="android:colorAccent">#D3A4FF</item>
+  <item name="android:windowLightStatusBar">false</item><item name="android:windowLightNavigationBar">false</item>
+  <item name="android:statusBarColor">#0D0A13</item><item name="android:navigationBarColor">#0D0A13</item><item name="android:windowBackground">#0D0A13</item>
+ </style>
+ <color name="icon_bg">#6C36AD</color>
+</resources>

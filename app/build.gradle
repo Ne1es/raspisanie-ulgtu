@@ -1,0 +1,9 @@
+plugins { id 'com.android.application' }
+android {
+ namespace 'ru.ne1es.timetable'
+ compileSdk 35
+ buildToolsVersion '35.0.0'
+ defaultConfig { applicationId 'ru.ne1es.timetable'; minSdk 26; targetSdk 35; versionCode 24; versionName '0.10.4' }
+ compileOptions { sourceCompatibility JavaVersion.VERSION_1_8; targetCompatibility JavaVersion.VERSION_1_8 }
+}
+dependencies { implementation 'org.osmdroid:osmdroid-android:6.1.20'; implementation files('libs/jsoup-1.18.3.jar'); implementation 'androidx.work:work-runtime:2.9.1' }
